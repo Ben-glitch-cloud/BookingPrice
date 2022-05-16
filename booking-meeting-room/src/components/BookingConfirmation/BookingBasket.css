@@ -1,0 +1,79 @@
+.BookingConfirmationWindow{
+    position: absolute; 
+    z-index: 1; 
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(108,122,137,0.6); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.BookingInfo{
+    width: 400px; 
+    height: 250px; 
+    background-color: white; 
+    border-radius: 5px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between;
+} 
+
+.Header{
+    display: flex; 
+    flex-direction: row;  
+    align-items: center; 
+    justify-content: space-evenly;
+    height: 50px; 
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;  
+    margin: 0px; 
+    padding: 0px;
+    background-color: #69C8CD;
+}
+
+.HeaderBookingInfo{
+    font-size: 22px;  
+    font-weight: 500;
+    letter-spacing: 1.5px;  
+    padding: 0px;
+    margin: 0px;
+}  
+
+.CloseWindow{
+    font-size: 16px;
+    padding: 2px 2px;
+} 
+
+.CloseWindow:hover{
+    background-color: white;
+    border: solid white 2px;
+} 
+
+.Time{
+    font-size: 22px;  
+    font-weight: 500;
+    letter-spacing: 1.5px; 
+    margin: 0px; 
+   padding-top: 20px;
+}
+
+.Money{
+    font-size: 22px;  
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.BookingNav{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.CheckOut{
+    background-color: #69C8CD;
+    border: #69C8CD solid 2px; 
+    margin-bottom: 20px;
+}

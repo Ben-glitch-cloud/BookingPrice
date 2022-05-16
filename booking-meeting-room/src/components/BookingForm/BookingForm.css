@@ -1,0 +1,21 @@
+.Form{
+    display: flex; 
+    font-size: 22px; 
+    letter-spacing: 1.5px; 
+} 
+
+input{
+    font-size: 22px; 
+    letter-spacing: 1.5px; 
+    width: 170px; 
+    border: 2px solid #69C8CD; 
+    border-radius: 5px; 
+} 
+
+label{
+    margin: 0px 10px; 
+    padding: 5px 10px; 
+    background-color: #FFEA45; 
+    border-radius: 5px; 
+    font-weight: 500;
+}

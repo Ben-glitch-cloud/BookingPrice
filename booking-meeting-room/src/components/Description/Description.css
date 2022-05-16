@@ -1,0 +1,30 @@
+.Description{ 
+    width: 100%;
+    display:  flex; 
+    justify-content: center; 
+    margin: 0px;
+} 
+
+.DescriptionCon{
+    width: 50%; 
+    text-align: justify; 
+  
+}
+
+.DescriptionCon p{
+    letter-spacing: 1.5px; 
+    font-weight: 500; 
+    font-size: 18px; 
+    padding: 0px; 
+    opacity: 0.8;
+} 
+
+.RatesLink{
+    color: #006BA1; 
+    text-decoration: underline;
+} 
+
+.RatesLink:hover{
+    text-decoration: none; 
+    color: #47A9DA;
+}

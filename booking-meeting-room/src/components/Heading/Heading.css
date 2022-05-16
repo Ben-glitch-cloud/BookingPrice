@@ -1,0 +1,15 @@
+.MainCon{
+    width: 100%; 
+    height: 160px; 
+    background-color: #c4e5e8; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    clip-path: polygon(0% 0%, 100% 0%, 150% 50%, 0% 100%);
+}
+
+.MainHeader{
+    font-size: 36px; 
+    letter-spacing: 1.5px;
+    font-weight: 500; 
+}
