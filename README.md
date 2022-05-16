@@ -18,4 +18,8 @@ git clone https://github.com/Ben-glitch-cloud/BookingPrice.git
 
 ``` 
 npm start
-```
+```  
+
+A new tab will appear called localhost3000. 
+
+Your all good to go 👍
