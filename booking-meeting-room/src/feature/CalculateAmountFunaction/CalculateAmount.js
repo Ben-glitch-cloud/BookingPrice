@@ -34,7 +34,6 @@ function calculateAmount(Time){
       OverAllscore += 105
     } 
     OverAllscore += TimeObject['week'] * 105  
-    console.log(OverAllscore)
     return OverAllscore
   } 
 
