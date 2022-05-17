@@ -1,4 +1,4 @@
-# BookingPrice 
+# BookingPrices 
 
 ## Description 
 
