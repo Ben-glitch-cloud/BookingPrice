@@ -16,25 +16,26 @@ function calculateAmount(Time){
         OverAllTime -= 1 
         TimeObject['min'] += 1
       }
-    } 
+    }  
     if((TimeObject['min'] * 2) <= 22){
       OverAllscore += TimeObject['min'] * 2
     } else if((TimeObject['min'] * 2) > 22){
       OverAllscore += 22
     }  
-    if((TimeObject['hour'] * 22) <= 60){
+    if((TimeObject['hour'] * 22) < 60){
       OverAllscore += TimeObject['hour'] * 22
-    } else if((TimeObject['hour'] * 22) > 60){
-      OverAllscore += TimeObject['hour'] += 60
+    } else if((TimeObject['hour'] * 22) >= 60){ 
+      OverAllscore += 60 
+    
     } 
     if((TimeObject['day'] * 60) <= 105){
       OverAllscore += TimeObject['day'] * 60
     } else if((TimeObject['day'] * 60) > 105){
       OverAllscore += 105
     } 
-    OverAllscore += TimeObject['week'] * 105 
+    OverAllscore += TimeObject['week'] * 105  
+    console.log(OverAllscore)
     return OverAllscore
-    // setMoney(money => money = OverAllscore)
   } 
 
   export default calculateAmount
